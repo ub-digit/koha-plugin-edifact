@@ -1,0 +1,28 @@
+{
+  "name": "koha-plugin-edifact",
+  "version": "0.1",
+  "description": "Koha plugin for edifact fixes",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.2.2",
+    "gulp-github-release": "^1.2.1",
+    "gulp-run": "^1.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ub-digit/koha-plugin-edifact.git"
+  },
+  "author": "Johan Larsson <johan.larsson@ub.gu.se>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ub-digit/koha-plugin-edifact.git/issues"
+  },
+  "homepage": "https://github.com/ub-digit/koha-plugin-edifact.git#readme",
+  "dependencies": {
+    "datetime": "0.0.3",
+    "node-datetime": "^2.0.0"
+  }
+}
