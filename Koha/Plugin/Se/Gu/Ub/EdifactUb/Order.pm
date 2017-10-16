@@ -461,7 +461,7 @@ sub order_line {
     }
 
     # RFF unique orderline reference no
-    my $rff = join q{}, 'RFF+LI:', $orderline->ordernumber, $seg_terminator;
+    my $rff = join q{}, 'RFF+LI:', $orderline->ordernumber . "+" . $self->{basket}->basketno(), $seg_terminator;
     $self->add_seg($rff);
 
     # RFF : suppliers unique quotation reference number
